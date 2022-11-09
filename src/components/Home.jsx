@@ -11,10 +11,10 @@ const Home = () => {
         {/* Container */}        
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>         
             <p className='text-black text-xl'><strong>Hello, my name is</strong></p>
-            <h1 class='centerText' className='text-4xl sm:text-7xl font-bold text-red-600 centerText'>Brad DeBruyne</h1>
-            <h2 class='centerText'  className='text-3xl sm:text-6xl font-bold text-[black] pb-6 centerText'>Aspiring Full Stack Developer</h2>
+            <h1 class='centerText' className='lg:text-7xl sm:text-4xl font-bold text-red-600 centerText'>Brad DeBruyne</h1>
+            <h2 class='centerText'  className='lg:text-5xl sm:text-3xl md:text-4xl font-bold text-[black] pb-6 centerText'>Aspiring Full Stack Developer</h2>
         <div className='flex flex-col justify-center items-center pt-6'>
-            <p  ><strong>I am a student at <span class='special-word'><b>Robertson College</b></span> taking
+            <p  ><strong>I am a recent graduate <span class='special-word'><b>Robertson College</b>&nbsp;</span>after taking
              part in the <span class='special-word'><b>Full-stack Web Developer</b></span> program.
             This project is to display some of the skills I have developed throughout my year at 
             &nbsp;<span class='special-word'><b>Robertson College</b></span>, as well as some skills I have worked on over the years.</strong>
