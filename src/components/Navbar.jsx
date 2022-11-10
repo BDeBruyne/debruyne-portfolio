@@ -53,7 +53,7 @@ const Navbar = () => {
             <ul className={
                 !nav 
                 ? 'hidden' 
-                : 'absolute top-0 left-5 w-full h-screen bg-white flex flex-col justify-center items-center'
+                : 'absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center'
               }>
                 <li className='py-2 text-4xl font-bold hover:text-red-600 hover:scale-75 duration-500'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>

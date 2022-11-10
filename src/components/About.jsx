@@ -9,7 +9,7 @@ const About = () => {
                 <p className='text-5xl font-bold inline border-b-4 border-black text-red-600'>About</p>
                 </div>              
             </div>
-            <div className='max-w-[1100px] w-full grid sm:grid-cols-1 px-4 pt-4'>
+            <div className='max-w-[1100px] w-full grid sm:grid-cols-1 px-4 pt-4 '>
                             
                 <div>
                     <p><strong>I am excited about gaining experience in &nbsp;<span class='special-word'>Web Development</span> 
@@ -18,15 +18,15 @@ const About = () => {
                     <p><strong>In 2003 I graduated from <span class='special-word'>McKenzie College</span> after 
                         completing their&nbsp;<span class='special-word'>Digital Media Design</span> program. 
                         In that program I learned the fundamentals of &nbsp;<span class='special-word'>Graphic</span> and &nbsp;
-                        <span class='special-word'>Web Design</span> using the Adobe Creative Suite, 
+                        <span class='special-word'>Web Design</span> using the <span class='special-word'>Adobe Creative Suite</span>, 
                         as well as <span class='special-word'>Web Development</span>&nbsp;basics using <span class='special-word'>HTML</span>,
                          <span class='special-word'>CSS</span>, <span class='special-word'>JavaScript</span> and 
                          &nbsp;<span class='special-word'>Flash <span class='special-word text-sm'>(Adobe Animate)</span></span>.</strong>
                     </p><br></br>
                     <p><strong>I currently find myself a recent honor roll graduate of 
                     &nbsp;<span class='special-word'>Robertson College's</span>&nbsp;&nbsp;<span class='special-word'>Full Stack Web Development</span> 
-                    &nbsp;program looking for an opportunity to shine.
-                    <br></br><br></br>                         
+                    &nbsp;program.
+                                             
                         In this program I have learned the fundamentals of <span class='special-word'>
                         Front End Development</span> using HTML, CSS, JavaScript, Angular and React, as well as programming on the 
                         &nbsp;<span class='special-word'>Back End Development</span>&nbsp;side with such languages as <span class='special-word'>Java</span>,

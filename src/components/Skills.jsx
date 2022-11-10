@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div class='centerText'  name='skills' className='w-full h-screen bg-[white] text-red-600 centerText'>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 pt- flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-5xl font-bold inline border-b-4 border-black'>Skills</p>
                 <p className='py-4 text-black'><strong>These are some of the technologies I've worked with.</strong></p>
