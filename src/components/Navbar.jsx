@@ -10,13 +10,13 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div class='navBar' className='fixed w-full h-[100px] flex justify-between  items-center'>
+    <div class='navBar' className='fixed w-full h-[100px] bg-white flex justify-between  items-center'>
         <div className='md:hidden z-10 ml-6 pt-12'>
             <img src={Logo} alt="Logo" style={{width: '100px'}} />            
         </div>
 
         {/* menu */}
-        <ul class='navBar' className='hidden  md:flex '>
+        <ul class='' className='hidden  md:flex   pt- m-0 m-auto'>
                 <li class='navButtonLeft'>
                     <Link to="home" smooth={true} duration={500}>
                         Home
