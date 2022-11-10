@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
     body{
-        @apply font-[Raleway]
+        @apply font-[Goldman]
     }
     li {
         @apply px-4;
@@ -26,7 +26,74 @@
 }
 
 .special-word { 
-    color: red;     
+    color: #ff7300;     
   } 
 
+  .navBar {
+    background-color: #ffffff;
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    color: #125b83;   
+  } 
+
+    .navButtonLeft {
+        color: #125b83;
+        font-weight: 500;
+        font-size: 1.65rem/* 20px */;
+        line-height: 1.65rem/* 28px */;
+        padding-top: 2.5rem/* 40px */;
+        padding-right: 2.25rem/* 36px */;
+    }
+
+    .navButtonLeft:hover {
+        color: #ff7300;
+        --tw-scale-x: .75;
+        --tw-scale-y: .75;
+        transform: translate(var(--tw-translate-x), 
+        var(--tw-translate-y)) rotate(var(--tw-rotate)) 
+        skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) 
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        transition-duration: 100ms;
+    }
+    .navButtonLeft:not(:hover) {          
+        --tw-scale-x: 100%;
+        --tw-scale-y: 100%;
+        transform: translate(var(--tw-translate-x), 
+        var(--tw-translate-y)) rotate(var(--tw-rotate)) 
+        skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) 
+        scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+        transition-duration: 100ms;
+    }
+
+        .navButtonRight {
+            color: #125b83;
+            font-weight: 500;
+            font-size: 1.65rem/* 20px */;
+            line-height: 1.65rem/* 28px */;
+            padding-top: 2.5rem/* 40px */;
+            padding-left: 2.25rem/* 36px */;
+       
+        }
+        .navButtonRight:hover {          
+            color: #ff7300;
+            --tw-scale-x: .75;
+            --tw-scale-y: .75;
+            transform: translate(var(--tw-translate-x), 
+            var(--tw-translate-y)) rotate(var(--tw-rotate)) 
+            skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) 
+            scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+            transition-duration: 100ms;
+        }
+        .navButtonRight:not(:hover) {
+            --tw-scale-x: 100%;
+            --tw-scale-y: 100%;
+            transform: translate(var(--tw-translate-x), 
+            var(--tw-translate-y)) rotate(var(--tw-rotate)) 
+            skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) 
+            scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+            transition-duration: 100ms;
+        }
   

@@ -6,14 +6,14 @@ import Illustrator from '../assets/illustrator.jpg';
 
 const Work = () => {
     return (
-      <div name='work' className='w-full h-screen bg-[white] text-red-600'>
+      <div name='work' className='w-full h-screen bg-[white] text-[#ff7300]'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div class='centerText' >
-                <p  className='text-5xl font-bold inline border-b-4 border-black'>Work</p>
-                <p className='py-4 text-black'><strong>These are some of the assignments I've worked on.<br></br>
+                <p  className='text-5xl  inline border-b-4 border-[#125b83] border-double'>Work</p>
+                <p className='py-4 pt-6 text-[#125b83]'>These are some of the assignments I've worked on.<br></br>
                     More can be found on my &nbsp;<a href="https://github.com/BDeBruyne" target="_blank" rel="noopener noreferrer"><span class='special-word' 
-                    className='text-xl special-word'>GitHub</span></a><span className='text-sm'>(click here)</span>.</strong>
+                    className='text-xl special-word'>GitHub</span></a><span className='text-sm'>(click here)</span>.
                 </p>
             </div>
 
