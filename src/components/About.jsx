@@ -13,7 +13,7 @@ const About = () => {
                             
                 <div>
                     <p>I am excited about gaining experience in &nbsp;<span class='special-word'>Web Development</span> 
-                       &nbsp;and improving the my skillset as I work towards becoming a professional developer.
+                       &nbsp;and improving my skillset as I work towards becoming a professional developer.
                     </p>
                     <br></br>                    
                     <p> I have experience with <span class='special-word'>Graphic Design</span> for print/web and&nbsp; 
