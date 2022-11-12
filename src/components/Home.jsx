@@ -23,7 +23,7 @@ const Home = () => {
 
             I am an experienced customer service professional who is dedicated to effectively overcome challenges and work towards successful completion of  projects and goals.
             <br></br>
-            If you are looking for a creative developer for your team or upcoming project please feel free to reach out as I am always available to share ideas and ready to help.
+            If you are looking for a creative developer to join your team or upcoming project please feel free to reach out as I am always available to share ideas and ready to help.
             </p>
         </div>
             <div>
