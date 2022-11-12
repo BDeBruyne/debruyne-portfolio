@@ -17,15 +17,15 @@ const About = () => {
                     </p>
                     <br></br>                    
                     <p> I have experience with <span class='special-word'>Graphic Design</span> for print/web and&nbsp; 
-                        <span class='special-word'>Animation</span> using the <span class='special-word'>Adobe Creative Suite</span>,
+                        <span class='special-word'>Animation</span> using <span class='special-word'>Adobe Creative Suite</span>,
                         &nbsp;<span class='special-word'>Front End Development</span> using <span class='special-word'>HTML</span>,  
-                        &nbsp;<span class='special-word'>CSS</span>, <span class='special-word'>JavaScript</span>, 
+                        &nbsp;<span class='special-word'>CSS</span>,&nbsp; <span class='special-word'>JavaScript</span>, 
                         &nbsp;<span class='special-word'>Angular</span>&nbsp; and <span class='special-word'>React</span>, as well 
-                        as programming in &nbsp;<span class='special-word'>Back End Development</span>&nbsp; with such languages
-                        as <span class='special-word'>Java</span>,&nbsp;<span class='special-word'>C#</span> and 
+                        as <span class='special-word'>Back End Development</span> programming  with such languages
+                        as <span class='special-word'>Java</span>,&nbsp;<span class='special-word'>C#</span> and&nbsp;
                         <span class='special-word'>.Net<span className='text-sm'>(ASP and Core)</span></span>. I also have 
-                        experience with <span class='special-word'>Database Concepts</span>, &nbsp;
-                        <span class='special-word'>Design</span> and &nbsp;<span class='special-word'>MySQL</span> allowing me to
+                        experience with <span class='special-word'>Database Concepts</span>,&nbsp;
+                        <span class='special-word'>Design</span> and&nbsp;<span class='special-word'>MySQL</span> allowing me to
                         tie everything together into fully functional dynamic web applications.
                     </p><br></br>
                     <p>When I am not at my workstation I enjoy spending time with my <span class='special-word'>family</span>, 

@@ -21,7 +21,7 @@ const Home = () => {
             free time.
             <br></br><br></br>
 
-            I am an experienced customer service professional who is dedicated to effectively overcome challenges and work towards successful completion of  projects and goals.
+            I am an experienced customer service professional who is dedicated to effectively overcoming challenges and working towards successful completion of projects and goals.
             <br></br>
             If you are looking for a creative developer to join your team or upcoming project please feel free to reach out as I am always available to share ideas and ready to help.
             </p>
