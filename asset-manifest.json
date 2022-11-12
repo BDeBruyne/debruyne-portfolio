@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/debruyne-portfolio/static/css/main.a5904d04.css",
-    "main.js": "/debruyne-portfolio/static/js/main.0125be50.js",
+    "main.js": "/debruyne-portfolio/static/js/main.3bb626da.js",
     "static/media/logobd.png": "/debruyne-portfolio/static/media/logobd.aec8c0721232f9f3253b.png",
     "static/media/cSharp.jpg": "/debruyne-portfolio/static/media/cSharp.8f86ee6f67821816248d.jpg",
     "index.html": "/debruyne-portfolio/index.html",
     "main.a5904d04.css.map": "/debruyne-portfolio/static/css/main.a5904d04.css.map",
-    "main.0125be50.js.map": "/debruyne-portfolio/static/js/main.0125be50.js.map"
+    "main.3bb626da.js.map": "/debruyne-portfolio/static/js/main.3bb626da.js.map"
   },
   "entrypoints": [
     "static/css/main.a5904d04.css",
-    "static/js/main.0125be50.js"
+    "static/js/main.3bb626da.js"
   ]
 }
