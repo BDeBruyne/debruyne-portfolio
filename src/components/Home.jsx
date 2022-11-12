@@ -14,15 +14,17 @@ const Home = () => {
             <h1 class='centerText' className='lg:text-7xl md:text-7xl  text-[#ff7300] centerText'>Brad DeBruyne</h1>
             <h2 class='centerText'  className='lg:text-5xl sm:text-3xl md:text-4xl font-bold text-[#125b83] pb-6 centerText'>Aspiring Full Stack Developer</h2>
         <div className='flex flex-col justify-center items-center pt-6 text-[#125b83]'>
-            <p  >I am a recent graduate of the <span class='special-word'>Full-stack Web Developer</span> program at <span class='special-word'>Robertson College</span>.
-            This project is to display some of the skills I have developed throughout my year at 
-            &nbsp;<span class='special-word'>Robertson College</span> as well as some skills I have worked on over the years.
+            <p  >I am a recent graduate of the <span class='special-word'>Full-stack Web Developer</span> program at <span class='special-word'>Robertson College</span>,
+            as well as a graduate of <span class='special-word'>McKenzie College</span> and their <span class='special-word'>Digital Media and Design</span> program.
+            <br></br>
+            This portfolio is to display some of the skills I have developed throughout my time in school as well as a handfull of the projects I have worked on over the years in my 
+            free time.
             <br></br><br></br>
 
-            This site was developed using <span class='special-word'>React JS</span> in <span class='special-word'>Visual Studio Code</span>, 
-            <span class='special-word'>&nbsp;&nbsp;Adobe Animate</span> was used to create and give motion to my logo,&nbsp; 
-            <span class='special-word'>Adobe Illustrator</span> to re-create the logos found on my skills page 
-            and <span class='special-word'>Adobe Photoshop</span> to edit the background <br></br>images for the thumbnails on my work page.</p>
+            I am an experienced customer service professional who is dedicated to effectively overcome challenges and work towards successful completion of  projects and goals.
+            <br></br>
+            If you are looking for a creative developer for your team or upcoming project please feel free to reach out as I am always available to share ideas and ready to help.
+            </p>
         </div>
             <div>
                 <br />
