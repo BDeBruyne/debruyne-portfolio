@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram, FaFacebookSquare} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 
@@ -10,13 +10,13 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div class='navBar' className='fixed w-full h-[100px] bg-white flex justify-between  items-center'>
+    <div class='navBar' className='fixed w-full h-[100px] bg-white flex justify-between  '>
         <div className='md:hidden z-10 ml-6 pt-12'>
             <img src={Logo} alt="Logo" style={{width: '100px'}} />            
         </div>
 
         {/* menu */}
-        <ul class='' className='hidden  md:flex   pt- m-0 m-auto'>
+        <ul class='' className='hidden  md:flex    mx-auto'>
                 <li class='navButtonLeft'>
                     <Link to="home" smooth={true} duration={500}>
                         Home
@@ -43,7 +43,7 @@ const Navbar = () => {
             </ul>        
 
         {/* Hamburger Dropdown Navigation for md and sm screen sizes */}
-            <div onClick={handleClick}className='md:hidden z-10 pt-14 text-[#125b83] hover:text-[#ff7300] '>
+            <div onClick={handleClick}className='md:hidden z-10 pt-14 text-[#125b83] hover:text-[#ff7300] pr-2'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
 
             {/* Social Icons */}
             <div className='hidden lg:flex fixed flex-col bottom-[0%] left-0'>
-                <ul>
+                <ul>                            
                     <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-92px] hover:ml-[-10px] duration-500 ' target="_blank" rel="noopener noreferrer">
                         <a className='flex justify-between items-center w-full text-[#125b83] hover:text-[#ff7300] 'href='https://www.linkedin.com/in/b-debruyne' target="_blank" rel="noopener noreferrer">
                             Linkedin <FaLinkedin size={30} />
@@ -93,6 +93,16 @@ const Navbar = () => {
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
+                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-10px] duration-500 '>
+                        <a className='flex justify-between items-center w-full text-[#125b83] hover:text-[#ff7300]  'href='https://facebook.com' target="_blank" rel="noopener noreferrer">
+                            Facebook <FaFacebookSquare size={30} />
+                        </a>
+                    </li>  
+                    <li className='w-[150px] h-[60px] flex justify-between items-center ml-[-101px] hover:ml-[-10px] duration-500 '>
+                        <a className='flex justify-between items-center w-full text-[#125b83] hover:text-[#ff7300]  'href='https://instagram.com' target="_blank" rel="noopener noreferrer">
+                            Instagram <FaInstagram size={30} />
+                        </a>
+                    </li>            
                 </ul>
             </div>
     </div>
