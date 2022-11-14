@@ -1,6 +1,4 @@
-import {HiArrowNarrowRight} from 'react-icons/hi'
 import React from 'react'
-import {Link} from 'react-scroll'
 
 const Home = () => {
   
