@@ -15,78 +15,78 @@ import Profile from '../assets/profile.png';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen pt-44 bg-[white] text-[#125b83] '>
-        <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-1 '>
-            <div class='centerText' className='pb-4 pt-44 centerText'>
-                <p className='text-5xl   border-b-4  border-[#125b83] border-double text-[#ff7300]'>About</p>
-                </div>              
-            </div>
-            <div className='max-w-[1000px] w-full grid lg:grid-cols-2 sm:grid-cols-1 px-4 pt-4 '>
-                            
-                <div className=''>                                       
-                    <p> I am experienced with <span class='special-word'>Graphic Design</span> for print and web,&nbsp; 
-                        <span class='special-word'>Animation</span> as well as&nbsp;<span class='special-word'>Front End</span> and 
-                        &nbsp;<span class='special-word'>Back End Development</span> programming. &nbsp;I also have 
-                        experience with <span class='special-word'>Database Concepts</span>,&nbsp;
-                        <span class='special-word'>Design</span> and&nbsp;<span class='special-word'>SQL</span> allowing me to
-                        tie everything together into fully functional dynamic web applications.
-                    </p><br></br>
-                    <p>When I am not at my workstation I enjoy spending time with my family, 
-                    participating in sports, chilling out with a good movie or playing video games from time to time.
-                    </p>                 
-                </div>
-                <div className=''>
-                    <img className='pl-60 mx-auto' src={Profile} alt="Profile" />                    
-                </div>                
-        </div>
-        
-        {/* Container */}
-        <div class="centerText" className='max-w-[1000px]   flex flex-col pt-8 items-center w-full h-full '>
-            <div class='centerText' className='pb-4 centerText'>
-                    <p className='text-2xl   border-b-4  border-[#125b83] border-double text-[#ff7300]'>Technologies I've Worked With</p>
-                    </div> 
+    <div name='about' className='w-full h-screen pt-48 bg-[white] text-[#125b83] '>
+            <div className='flex flex-col justify-center items-center w-full h-full'>
+                    <div className='max-w-[1000px] w-full grid grid-cols-1 '>
+                        <div class='centerText' className='pb-4 pt-48 centerText'>
+                            <p className='text-5xl   border-b-4  border-[#125b83] border-double text-[#ff7300]'>About</p>
+                        </div>              
+                    </div>
+                    <div className='max-w-[1000px] w-full grid lg:grid-cols-2 sm:grid-cols-1 px-4 pt-4 '>
+                                    
+                        <div className='pl-2'>                                       
+                            <p> I am experienced with <span class='special-word'>Graphic Design</span> for print and web,&nbsp; 
+                                <span class='special-word'>Animation</span> as well as&nbsp;<span class='special-word'>Front End</span> and 
+                                &nbsp;<span class='special-word'>Back End Development</span> programming. &nbsp;I also have 
+                                experience with <span class='special-word'>Database Concepts</span>,&nbsp;
+                                <span class='special-word'>Design</span> and&nbsp;<span class='special-word'>SQL</span> allowing me to
+                                tie everything together into fully functional dynamic web applications.
+                            </p><br></br>
+                            <p>When I am not at my workstation I enjoy spending time with my family, 
+                            participating in sports, chilling out with a good movie or playing video games from time to time.
+                            </p>                 
+                        </div>
+                        <div className=''>
+                            <img className='pl-60 mx-auto' src={Profile} alt="Profile" />                    
+                        </div>                
+                    </div>
+            
+                    {/* Container */}
+                    <div class="centerText" className='max-w-[1000px]   flex flex-col pt-8 items-center w-full h-full '>
+                        <div class='centerText' className='pb-4 centerText'>
+                                <p className='text-2xl   border-b-4  border-[#125b83] border-double text-[#ff7300]'>Technologies I've Worked With</p>
+                        </div> 
 
-                <div className='w-full grid grid-cols-12 grid-rows-1  gap-2   pt-2'>                
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={HTMLImg} alt="HTML Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={CSSImg} alt="CSS Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={JavaScriptImg} alt="JavaScript Logo" />                    
-                    </div>                
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={ReactImg} alt="ReactJS Logo" />                    
-                    </div>  
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={Angular} alt="Angular Logo" />                    
-                    </div>              
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={Stackblitz} alt="StackBlitz Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={JavaImg} alt="Java Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={CSharp} alt="C# Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={MySql} alt="MySQL Logo" />                    
-                    </div>
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={NetCore} alt=".Net Core Logo" />                    
-                    </div>                
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={ASP} alt="ASP Logo" />                    
-                    </div>                 
-                    <div className=''>
-                        <img className='w-10 mx-auto hover:scale-75 duration-500' src={Adobe} alt="Adobe Logo" />               
-                    </div>              
-                </div>
-            </div>            
-        </div>
+                        <div className='w-full grid grid-cols-12 grid-rows-1  gap-2   pt-2'>                
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={HTMLImg} alt="HTML Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={CSSImg} alt="CSS Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={JavaScriptImg} alt="JavaScript Logo" />                    
+                            </div>                
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={ReactImg} alt="ReactJS Logo" />                    
+                            </div>  
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={Angular} alt="Angular Logo" />                    
+                            </div>              
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={Stackblitz} alt="StackBlitz Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={JavaImg} alt="Java Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={CSharp} alt="C# Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={MySql} alt="MySQL Logo" />                    
+                            </div>
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={NetCore} alt=".Net Core Logo" />                    
+                            </div>                
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={ASP} alt="ASP Logo" />                    
+                            </div>                 
+                            <div className=''>
+                                <img className='w-10 mx-auto hover:scale-75 duration-500' src={Adobe} alt="Adobe Logo" />               
+                            </div>              
+                        </div>
+                    </div>            
+            </div>
     </div>
   )
 }
