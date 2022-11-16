@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/debruyne-portfolio/static/css/main.6d20874f.css",
-    "main.js": "/debruyne-portfolio/static/js/main.27e6c2c8.js",
+    "main.css": "/debruyne-portfolio/static/css/main.928243f5.css",
+    "main.js": "/debruyne-portfolio/static/js/main.c7b690bb.js",
     "static/media/logobd.png": "/debruyne-portfolio/static/media/logobd.aec8c0721232f9f3253b.png",
     "static/media/asp.png": "/debruyne-portfolio/static/media/asp.4f2dd16288331c6e795a.png",
     "static/media/mysql.png": "/debruyne-portfolio/static/media/mysql.7528d14754ca4afcd778.png",
     "static/media/profile.png": "/debruyne-portfolio/static/media/profile.47e7c24504408407e74e.png",
     "static/media/cSharp.jpg": "/debruyne-portfolio/static/media/cSharp.8f86ee6f67821816248d.jpg",
     "index.html": "/debruyne-portfolio/index.html",
-    "main.6d20874f.css.map": "/debruyne-portfolio/static/css/main.6d20874f.css.map",
-    "main.27e6c2c8.js.map": "/debruyne-portfolio/static/js/main.27e6c2c8.js.map"
+    "main.928243f5.css.map": "/debruyne-portfolio/static/css/main.928243f5.css.map",
+    "main.c7b690bb.js.map": "/debruyne-portfolio/static/js/main.c7b690bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d20874f.css",
-    "static/js/main.27e6c2c8.js"
+    "static/css/main.928243f5.css",
+    "static/js/main.c7b690bb.js"
   ]
 }
