@@ -76,7 +76,7 @@ const Navbar = () => {
             </ul>
 
             {/* Social Icons */}
-            <div className='hidden lg:flex fixed flex-col bottom-[0%] left-0'>
+            <div className='hidden xl:flex fixed flex-col bottom-[0%] left-0'>
                 <ul>                            
                     <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-92px] hover:ml-[-10px] duration-500 ' target="_blank" rel="noopener noreferrer">
                         <a className='flex justify-between items-center w-full text-[#125b83] hover:text-[#ff7300] 'href='https://www.linkedin.com/in/b-debruyne' target="_blank" rel="noopener noreferrer">
