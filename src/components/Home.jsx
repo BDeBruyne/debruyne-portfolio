@@ -7,10 +7,10 @@ const Home = () => {
     <div name='home' className='w-full h-screen' >
 
         {/* Container */}        
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full '>         
+        <div className='max-w-[1000px] mx-auto px-8 pt-40 sm:pb-14 flex flex-col justify-center h-full'>         
             <p className='text-[#125b83] text-xl'>Hello, my name is</p>
-            <h1 class='centerText' className='lg:text-7xl md:text-7xl  text-[#ff7300] centerText'>Brad DeBruyne</h1>
-            <h2 class='centerText'  className='lg:text-5xl sm:text-3xl  md:text-4xl font-bold text-[#125b83] pb-4 centerText'>Aspiring Full Stack Developer</h2>
+            <h1 class='centerText' className='text-4xl sm:text-7xl text-[#ff7300] centerText'>Brad DeBruyne</h1>
+            <h2 class='centerText'  className='text-2xl sm:text-5xl font-bold text-[#125b83] pb-4 centerText'>Aspiring Full Stack Developer</h2>
         <div className='flex flex-col justify-center items-center pt-2 text-[#125b83]'>
             <p  >I am a recent graduate of the <span class='special-word'>Full-stack Web Developer</span> program at <span class='special-word'>Robertson College</span>,
             as well as a graduate of the <span class='special-word'>Digital Media and Design</span> program at <span class='special-word'>McKenzie College</span>.
