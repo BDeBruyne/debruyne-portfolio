@@ -15,9 +15,9 @@ import Profile from '../assets/profile.png';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[white] text-[#125b83] '>
+    <div name='about' className='w-full h-screen bg-[white] text-[#125b83]'>
             <div className='flex flex-col justify-center items-center w-full h-full  '>
-                    <div className='max-w-[1000px] max-h-[700px] w-full mt-80 sm:mt-0'>
+                    <div className='max-w-[1000px] max-h-[700px] w-full mt-52 sm:mt-0'>
                         <div class='centerText' className='centerText'>
                             <p className='text-5xl   border-b-4  border-[#125b83] border-double text-[#ff7300]'>About</p>
                         </div>              
@@ -30,10 +30,7 @@ const About = () => {
                                 experience with <span class='special-word'>Database Concepts</span>,&nbsp;
                                 <span class='special-word'>Design</span> and&nbsp;<span class='special-word'>SQL</span> allowing me to
                                 tie everything together into fully functional dynamic web applications.
-                            </p><br></br>
-                            <p>When I am not at my workstation I enjoy spending time with my family, 
-                            participating in sports, chilling out with a good movie or playing video games from time to time.
-                            </p>                 
+                            </p>          
                         </div>
                         <div className=''>
                             <img className='mx-auto sm:ml-64 sm:my-auto mt-4 sm:mt-0' src={Profile} alt="Profile" />                    

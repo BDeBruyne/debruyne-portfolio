@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     
     background-position: center;
-    height: 148px;
+    height: 148px;    
 }
 
 .centerText {
@@ -98,4 +98,7 @@
             scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
             transition-duration: 500ms;
         }
+
+
+        
   

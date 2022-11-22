@@ -15,8 +15,8 @@ const Work = () => {
                 </p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-lg font-bold  pt-6'>
-                <div style={{backgroundImage: `url(${JavaScript})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 backgroundImg'>  
+            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-lg font-bold  pt-6'>
+                <div style={{backgroundImage: `url(${JavaScript})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 bg-white backgroundImg'>  
                     <div className=' w-full h-full'>
                             <span className='text-sm font-bold text-black tracking-wider'>
                                 Story Generator
@@ -28,7 +28,7 @@ const Work = () => {
                             </div>
                         </div>              
                 </div>
-                <div style={{backgroundImage: `url(${Java})`}} class='backgroundImg'className='shadow-md shadow-gray-900 hover:scale-110 duration-500 backgroundImg'>
+                <div style={{backgroundImage: `url(${Java})`}} class='backgroundImg'className='shadow-md shadow-gray-900 hover:scale-110 duration-500 bg-white backgroundImg'>
                 <div className=' w-full h-full'>
                             <span className='text-sm font-bold text-black tracking-wider'>
                                 Vowel Counter
@@ -40,7 +40,7 @@ const Work = () => {
                             </div>
                         </div>             
                 </div>
-                <div style={{backgroundImage: `url(${CSharp})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 backgroundImg'>
+                <div style={{backgroundImage: `url(${CSharp})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 bg-white backgroundImg'>
                 <div className=' w-full h-full'>
                             <span className='text-sm font-bold text-black tracking-wider '>
                                  Prime Factors
@@ -52,7 +52,7 @@ const Work = () => {
                             </div>
                         </div>             
                 </div>
-                <div style={{backgroundImage: `url(${Illustrator})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 backgroundImg'>
+                <div style={{backgroundImage: `url(${Illustrator})`}} class='backgroundImg' className='shadow-md shadow-gray-900 hover:scale-110 duration-500 bg-white backgroundImg'>
                 <div className=' w-full h-full'>
                             <span className='text-sm font-bold text-black tracking-wider '>
                                  Character Design

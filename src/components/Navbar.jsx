@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div class='navBar' className='fixed w-full h-[100px] bg-white flex justify-between  '>
-        <div className='md:hidden z-10 ml-6 pt-12'>
+        <div className='md:hidden z-10 ml-2 pt-2'>
             <img src={Logo} alt="Logo" style={{width: '100px'}} />            
         </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             </ul>        
 
         {/* Hamburger Dropdown Navigation for md and sm screen sizes */}
-            <div onClick={handleClick}className='md:hidden z-10 pt-14 text-[#125b83] hover:text-[#ff7300] pr-2'>
+            <div onClick={handleClick}className='md:hidden z-10 pt-2 text-[#125b83] hover:text-[#ff7300] pr-2'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
